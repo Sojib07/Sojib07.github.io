@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+</head>
+<body>
+    <div class="container">
+        <p>PRODUCT LIST</p>
+        <table class="table table-striped" id="product-list-table">
+            <thead class="table-info">
+                <th>Product</th>
+                <th>Price(Taka)</th>
+                <th></th>
+            </thead>
+
+            <tbody id="product_list">
+                <tr>
+                    <td>Product_1</td>
+                    <td>1000</td>
+                    <td><input type="submit" name="" id="add-cart" value="Add To Cart"></td>
+                </tr>
+
+                <tr>
+                    <td>Product_2</td>
+                    <td>2000</td>
+                    <td><input type="submit" name="" id="add-cart" value="Add To Cart"></td>
+                </tr>
+
+                <tr>
+                    <td>Product_3</td>
+                    <td>200</td>
+                    <td><input type="submit" name="" id="add-cart" value="Add To Cart"></td>
+                </tr>
+
+                <tr>
+                    <td>Product_4</td>
+                    <td>3000</td>
+                    <td><input type="submit" name="" id="add-cart" value="Add To Cart"></td>
+                </tr>
+
+                <tr>
+                    <td>Product_5</td>
+                    <td>500</td>
+                    <td><input type="submit" name="" id="add-cart" value="Add To Cart"></td>
+                </tr>
+
+                <tr>
+                    <td>Product_6</td>
+                    <td>900</td>
+                    <td><input type="submit" name="" id="add-cart" value="Add To Cart"></td>
+                </tr>
+            </tbody>
+        </table>
+
+
+        <p id="cart-header">CART</p>
+        <table id="cart-table" class="table table-bordered">
+            <thead>
+                <th>Product Name</th>
+                <th>Unit Price</th>
+                <th></th>
+            </thead>
+
+            <tbody id='cart-list'>
+
+            </tbody>
+
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
